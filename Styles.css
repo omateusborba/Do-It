@@ -1,0 +1,123 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: black;
+    color: white; /* Cor padrão do texto para branco */
+}
+
+.title {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.inserirTarefa {
+    display: flex;
+    justify-content: center; /* Centralizar o formulário horizontalmente */
+    align-items: center;
+    margin-bottom: 20px; /* Aumentar a margem inferior */
+    width: 80%; /* Limitar a largura do formulário */
+    max-width: 800px; /* Largura máxima para evitar esticar demais */
+    margin: 20px auto; /* centralizar o form com margin auto*/
+}
+
+.inserirTarefa button {
+    padding: 20px;
+    background-color: #00bf63;
+    border-radius: 60px;
+    border: none; /* Remover a borda padrão */
+    color: rgb(0, 0, 0); /* Cor do texto do botão */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+.inserirTarefa button:hover {
+    background-color: white;
+    color: #00bf63;
+    cursor: pointer;
+}
+
+#input {
+    flex-grow: 1;
+    padding: 20px;
+    margin-right: 10px; /* Espaço entre input e botão */
+    border-radius: 60px;
+    border: none; /* Remover a borda padrão */
+    background-color: #333; /* Fundo mais escuro para o input */
+    color: white; /* Cor do texto no input */
+}
+
+li {
+    text-align: center;
+    border: 1px, solid #ffffff;
+    list-style: none;
+    border-radius: 60px;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+
+li:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.tarefa{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.btn{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #00bf63;
+    border-radius: 60px;
+    border: none; /* Remover a borda padrão */
+    color: rgb(0, 0, 0); /* Cor do texto do botão */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: #000000;
+    cursor: pointer;
+}
+
+.data{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.hora{
+    margin-top: 0px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+header{
+    background-color: #00bf63;
+    color: #000000;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+a{
+    color: #000000;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .inserirTarefa {
+        flex-direction: column; /* Colocar input e botão em coluna */
+    }
+    #input {
+        margin-right: 0; /* Remover a margem direita */
+        margin-bottom: 10px; /* Adicionar margem inferior */
+    }
+}
