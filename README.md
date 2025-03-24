@@ -26,14 +26,11 @@
     <li>JavaScript</li>
 </ul>
 
-  <h2>Como Executar</h2>
+  <h2>Como Utilizar?</h2>
 
 <ol>
     <li>Link para acessar o Do-It</li>
-    <pre><code></code></pre>
-    <li>Navegue até o diretório do projeto:</li>
-    <pre><code>cd do-it</code></pre>
-    <li>Abra o arquivo <code>index.html</code> em seu navegador web preferido.</li>
+    <pre><code>http://doitbr.site/</code></pre>
 </ol>
 
 <h2>Estrutura de Pastas</h2>
@@ -46,21 +43,14 @@ do-it/
 └── README.html     # Este arquivo
     </code></pre>
 
-<h2>Contribuição</h2>
-
-<p>Contribuições são bem-vindas! Se você tiver alguma sugestão ou encontrar algum problema, por favor, abra uma issue ou envie um pull request.</p>
-
-<h2>Licença</h2>
-
-<p>Este projeto está licenciado sob a licença [Nome da Licença] - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.</p>
 
 <h2>Autor</h2>
 
-<p>[Seu Nome]</p>
+<p>Mateus Borba</p>
 
 <h2>Imagem do Aplicativo</h2>
 
-<img src="URL da imagem do aplicativo" alt="Imagem do aplicativo" style="max-width: 100%;">
+<img src="" alt="Imagem do aplicativo" style="max-width: 100%;">
 
 </body>
 </html>
