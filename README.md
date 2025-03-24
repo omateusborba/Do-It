@@ -50,7 +50,7 @@ do-it/
 
 <h2>Imagem do Aplicativo</h2>
 
-<img src="" alt="Imagem do aplicativo" style="max-width: 100%;">
+<img src="./Logos/ImagemApp.png" alt="Imagem do aplicativo">
 
 </body>
 </html>
